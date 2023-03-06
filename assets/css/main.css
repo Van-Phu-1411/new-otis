@@ -193,3 +193,25 @@
   font-size: 1.4rem;
   font-weight: 400;
 }
+/* modal */
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+}
+.modal__overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(146, 144, 144, 0.18);
+}
+.modal__body {
+  background: black;
+  margin: auto;
+  position: relative;
+}
+.modal__inner {
+}
