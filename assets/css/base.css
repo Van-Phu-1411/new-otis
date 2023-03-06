@@ -3,6 +3,7 @@
   --black-color: #000;
   --text-color: #333;
   --primery-color: #ee4d2d;
+  --boder-color: #dbdbdb;
 }
 * {
   box-sizing: inherit;
@@ -33,4 +34,50 @@ html {
   100% {
     opacity: 1;
   }
+}
+/* modal */
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+}
+.modal__overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(146, 144, 144, 0.18);
+}
+.modal__body {
+  background: rgb(248, 246, 246);
+  margin: auto;
+  position: relative;
+}
+/* button */
+.btn {
+  min-width: 14.2rem;
+  height: 3.6rem;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1.4rem;
+  outline: none;
+  cursor: pointer;
+}
+.btn.btn--primary {
+  color: var(--white-color);
+  background-color: var(--primery-color);
+}
+.btn.btn--disable {
+  cursor: default;
+  color: #949494;
+  background-color: #c3c3c3;
+}
+.btn-hover:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.btn.btn--size-s {
+  height: 3rem;
 }
