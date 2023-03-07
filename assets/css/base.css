@@ -4,6 +4,12 @@
   --text-color: #333;
   --primery-color: #ee4d2d;
   --boder-color: #dbdbdb;
+
+  --header-height: 12rem;
+  --header__nav-height: 3.9rem;
+  --header-with-search-height: calc(
+    var(--header-height) - var(--header__nav-height)
+  );
 }
 * {
   box-sizing: inherit;
