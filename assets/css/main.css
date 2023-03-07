@@ -193,3 +193,107 @@
   font-size: 1.4rem;
   font-weight: 400;
 }
+/* auth-modal */
+.auth-font {
+  border-radius: 0.5rem;
+  width: 50rem;
+}
+.auth-font_container {
+  padding: 0 3.2rem;
+}
+.auth-font_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.auth-font_heading {
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: var(--text-color);
+}
+.auth-font__switch-btn {
+  font-size: 1.6rem;
+  color: var(--primery-color);
+  font-weight: 500;
+  cursor: pointer;
+}
+.auth-font_font {
+  margin-top: 0.8rem;
+}
+.auth-font_group {
+}
+.auth-font_input {
+  width: 100%;
+  height: 4rem;
+  margin-bottom: 1rem;
+  padding: 0 1.2rem;
+  font-size: 1.6rem;
+  border: 1px solid var(--boder-color);
+  border-radius: 0.4rem;
+  outline: none;
+}
+.auth-font_input:focus {
+  border: 0.2rem solid #4d4d4d;
+}
+.auth-font_aside {
+  margin-top: 2rem;
+  padding: 0 1.2rem;
+}
+.auth-font_policy-text {
+  font-size: 1.6rem;
+  line-height: 2.3rem;
+  text-align: center;
+}
+/* text link */
+.auth-font_text-link {
+  color: var(--primery-color);
+  text-decoration: none;
+}
+/* button */
+.auth-font_controls {
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.auth-font_soccia {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #d6d2d2;
+  padding: 0.8rem;
+  align-items: center;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+.btn--with-icon {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  justify-content: space-evenly;
+}
+.btn--with-icon-fb {
+  background-color: #3f47b1;
+  color: var(--white-color);
+}
+.btn--with-icon-gg {
+  background-color: var(--white-color);
+  color: var(--text-color);
+}
+.auth-font_policy-hepl {
+  display: flex;
+  font-size: 1.6rem;
+  line-height: 2.3rem;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.auth-font_text-link-hepl {
+  display: flex;
+  text-decoration: none;
+}
+.auth-font_text-link-color {
+  color: var(--primery-color);
+}
+.auth-font-senparete {
+  display: block;
+  border-left: 0.1rem solid var(--boder-color);
+  height: 2.2rem;
+}
