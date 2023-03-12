@@ -101,13 +101,3 @@ html {
 .btn.btn--size-s {
   height: 3rem;
 }
-.header__search-input {
-  width: 100%;
-  padding: 0 0.8rem;
-  height: 100%;
-  outline: none;
-  font-size: 1.4rem;
-  color: var(--text-color);
-  border: none;
-  border-radius: 0.5rem;
-}
