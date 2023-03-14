@@ -286,25 +286,97 @@
             <div class="col-10">
               <nav class="home-filte">
                 <span class="home-filte__label"> Sắp Xếp Theo </span>
-                <button class="btn">Phổ Biến</button>
-                <button class="btn">Mới Nhất</button>
-                <button class="btn">Bán Chạy</button>
+                <button class="btn home-filte__btn btn--primary">
+                  Phổ Biến
+                </button>
+                <button class="btn home-filte__btn">Mới Nhất</button>
+                <button class="btn home-filte__btn">Bán Chạy</button>
                 <div class="select-input">
                   <span class="select-input__label">Giá</span>
                   <i class="fas fa-angle-down"></i>
+                  <ul class="select-input__list">
+                    <li class="select-input__item">
+                      <a href="" class="select-input__link">Gía Thấp Tới Cao</a>
+                    </li>
+                    <li class="select-input__item">
+                      <a href="" class="select-input__link">Gía Cao Tới Thấp</a>
+                    </li>
+                  </ul>
                 </div>
                 <div class="home-filte__paginate">
                   <span class="home-filte__page-num">
                     <span class="home-filte__page-current">1</span>/14
                   </span>
                   <div class="home-filte__page-cont">
-                    <a href="" class="home-filte__page-btn">
-                      <i class="fas fa-angle-left"></i>
-                      <i class="fas fa-angle-right"></i>
+                    <a
+                      href=""
+                      class="home-filte__page-btn home-filte__page-btn-disabled"
+                    >
+                      <i class="home-filte__page-icon fas fa-angle-left"></i>
                     </a>
+                    <a href="" class="home-filte__page-btn"
+                      ><i class="home-filte__page-icon fas fa-angle-right"></i
+                    ></a>
                   </div>
                 </div>
               </nav>
+              <div class="home-product">
+                <div class="grid__row">
+                  <div class="col-2">
+                    <div class="home-product-item">
+                      <div
+                        class="home-product-item_img"
+                        style="
+                          background-image: url(https://cf.shopee.vn/file/sg-11134201-22110-bup889xj98jv4e_tn);
+                          background-size: contain;
+                          background-repeat: no-repeat;
+                        "
+                      ></div>
+                      <h4 class="home-product-item_name">
+                        PIN DỰ PHÒNG SẠC NHANH 22.5W DUNG LƯỢNG 10000MAH BASEUS
+                        TÍCH HỢP CÁP SẠC TYPEC VÀ IP
+                      </h4>
+                      <div class="home-product-item_price">
+                        <span class="home-product-item_price-old"
+                          >1.200.000</span
+                        >
+                        <span class="home-product-item_price-current"
+                          >999.999</span
+                        >
+                      </div>
+                      <div class="home-product-item__action">
+                        <span class="home-product-item__like">
+                          <i class="far fa-heart"></i>
+                          <!-- <i class="fas fa-heart"></i> -->
+                        </span>
+                        <div class="home-product-item__rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__brand"> Whoow </span>
+                        <span class="home-product-item__origin-name">
+                          Whoow
+                        </span>
+                      </div>
+                      <div class="home-product-item__favourtive">
+                        <i class="fas fa-check"></i>
+                        Yêu Thích
+                      </div>
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__percent">10%</span>
+                        <div class="home-product-item__sale-off-label">
+                          Gỉam
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

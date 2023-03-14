@@ -57,6 +57,7 @@
 }
 /* QR CODE */
 .header__qr {
+  z-index: 1;
   background-color: var(--white-color);
   width: 18.6rem;
   position: absolute;
@@ -559,10 +560,102 @@
   color: var(--primery-color);
   font-size: 1.8rem;
 }
+.body-hight {
+  height: 6rem;
+}
 .home-filte {
   background-color: rgba(0, 0, 0, 0.04);
   display: flex;
   align-items: center;
   padding: 1.2rem 2.2rem;
   border-radius: 2px;
+}
+.home-filte__btn {
+  min-width: 9rem;
+  margin-right: 1.2rem;
+}
+.home-filte__label {
+  font-size: 1.4rem;
+  margin-right: 1.2rem;
+}
+.home-filte__paginate {
+  margin-left: auto;
+  display: flex;
+  font-size: 1.4rem;
+  align-items: center;
+}
+.home-filte__page-num {
+  color: var(--text-color);
+  margin-right: 2.2rem;
+}
+.home-filte__page-current {
+  color: var(--primery-color);
+}
+.select-input__label {
+  font-size: 1.4rem;
+}
+.select-input__list {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 2.5rem;
+  border-radius: 2px;
+  background-color: var(--white-color);
+  padding: 0.8rem 1.2rem;
+  list-style: none;
+}
+.select-input__link {
+  line-height: 2.4rem;
+  font-size: 1.2rem;
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+.select-input__link:hover {
+  color: var(--primery-color);
+}
+.select-input:hover .select-input__list {
+  display: block;
+}
+.home-filte__page-cont {
+  border-radius: 2px;
+  overflow: hidden;
+  display: flex;
+  width: 7.2rem;
+  height: 3.6rem;
+}
+.home-filte__page-btn {
+  display: flex;
+  flex: 1;
+  background-color: var(--white-color);
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.home-filte__page-btn-disabled {
+  background-color: #f9f9f9;
+}
+.home-filte__page-btn-disabled .home-filte__page-icon {
+  color: #ccc;
+  cursor: default;
+}
+.home-filte__page-btn:first-child {
+  border-right: 1px solid #eeee;
+}
+.home-filte__page-icon {
+  color: #555;
+}
+.home-product-item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.home-product-item_img {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  z-index: 1;
 }

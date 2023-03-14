@@ -20,6 +20,9 @@ html {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
+.grid_flex {
+  display: flex;
+}
 .grid {
   width: 1200px;
   max-width: 100%;
@@ -189,3 +192,14 @@ html {
   padding-right: 1.2rem;
 }
 /* end 12 column */
+.select-input {
+  position: relative;
+  min-width: 12rem;
+  height: 3.4rem;
+  padding: 0 1.2rem;
+  border-radius: 2px;
+  background-color: var(--white-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
