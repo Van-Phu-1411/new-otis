@@ -59,6 +59,7 @@
       <header class="header">
         <div class="max-w-screen-xl m-auto">
           <nav class="header__nav">
+            <!-- kết nối -->
             <ul class="nav__list">
               <li class="nav__item nav__item--hover nav__item--senparate">
                 <a class="nav__link" href="#">Tải APP</a>
@@ -103,8 +104,9 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Kết nối Facebook"
-                ><img src="./assets/image/facebook.svg" alt="Trần Văn Phú" /></a
-              ><a
+                ><img src="./assets/image/facebook.svg" alt="Trần Văn Phú"
+              /></a>
+              <a
                 class="nav__item--icon"
                 href="https://zalo.me/0988330617"
                 target="_blank"
@@ -113,7 +115,7 @@
                 ><img src="./assets/image/zalo.svg" alt="Trần Văn Phú"
               /></a>
             </ul>
-
+            <!-- thông báo -->
             <ul class="nav__list">
               <li class="nav__item nav__item--hover">
                 <a class="nav__link" href="#">Thông Báo</a>
@@ -196,6 +198,7 @@
           </nav>
           <!-- header with search -->
           <div class="header-with-search">
+            <!-- logo -->
             <div class="header__logo">
               <a href="#" class="header__logo-item">
                 <img src="./assets/image/logo.png" alt="LoGo Otis" />
@@ -225,20 +228,6 @@
                     </ul>
                   </div>
                 </div>
-                <div class="header__search-selection">
-                  <span class="header__search-label">Trong shop</span>
-                  <i class="header__search-icon fas fa-angle-down"></i>
-                  <ul class="header__search-option">
-                    <li class="header__search-option-item">
-                      <span>Trong Shop</span>
-                      <i class="fas fa-check"></i>
-                    </li>
-                    <li class="header__search-option-item">
-                      <span>Ngoài Shop</span>
-                      <i class="fas fa-check"></i>
-                    </li>
-                  </ul>
-                </div>
                 <button class="header__search-btn">
                   <i class="header__search-btn-icon fas fa-search"></i>
                 </button>
@@ -256,9 +245,11 @@
           </div>
         </div>
       </header>
+      <!-- body trang web -->
       <div class="container max-w-screen-xl m-auto bg-black bg-opacity-5">
-        <div class="grid grid-cols-12">
-          <div class="col-span-2 p-4">
+        <div class="grid grid-cols-10 md:grid-cols-12">
+          <!-- danh mục -->
+          <div class="col-span-2 md:col-span-2 p-4">
             <nav class="category">
               <h3 class="category-header">
                 <i class="fas fa-bars"></i>
@@ -284,7 +275,8 @@
               </ul>
             </nav>
           </div>
-          <div class="col-span-10">
+          <div class="col-span-8 md:col-span-10">
+            <!-- lọc sản phẩm -->
             <nav class="home-filte">
               <span class="home-filte__label"> Sắp Xếp Theo </span>
               <button class="btn home-filte__btn btn--primary">Phổ Biến</button>
@@ -319,8 +311,9 @@
                 </div>
               </div>
             </nav>
-            <div class="grid grid-cols-10 bg-black bg-opacity-5">
-              <div class="col-span-2 p-4">
+            <!-- list sản phẩm -->
+            <div class="grid grid-cols-6 md:grid-cols-10 bg-black bg-opacity-5">
+              <div class="col-span-2 p-4 md:col-span-2">
                 <div class="home-product-item mt-4 bg-white bg-opacity-30">
                   <div
                     class="home-product-item_img bg-center"
@@ -383,10 +376,10 @@
           </div>
         </div>
       </div>
-
+      <!-- chân trang web -->
       <footer class="footer"></footer>
     </div>
-    <!-- modal -->
+    <!-- modal bảng đăng ký và đăng nhập -->
     <!-- <div class="modal">
       <div class="modal__overlay"></div>
       <div class="modal__body">
