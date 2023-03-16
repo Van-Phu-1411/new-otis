@@ -668,6 +668,7 @@
 }
 .home-product-item_price {
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
 }
 .home-product-item_price-old {
@@ -684,6 +685,7 @@
 }
 .home-product-item__action {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 .home-product-item__like {
@@ -700,7 +702,8 @@ i.home-product-item__like-icon {
   display: none;
 }
 .home-product-item__rating {
-  font-size: 0.5rem;
+  display: flex;
+  font-size: 0.3rem;
 }
 .home-product-item__origin {
 }
