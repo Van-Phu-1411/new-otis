@@ -1,4 +1,10 @@
+body,
 html {
   font-size: 63.5%;
   box-sizing: border-box;
+}
+.vochor {
+  display: block;
+  text-align: center;
+  font-size: 10px;
 }
