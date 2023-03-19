@@ -45,30 +45,14 @@
     />
     <link rel="stylesheet" href="./dist/output.css" />
   </head>
-  <body>
-    <div class="sm:container m-auto .bg-black">
+  <body class="bg-slate-100">
+    <div class="sm:container m-auto bg-slate-50">
       <header class="sm:container m-auto">
         <div>
           <div>
-            <div class="flex items-center sm:justify-center sm:bg-orange-600">
-              <div class="flex">
-                <img
-                  class="relative left-0 top-0"
-                  src="./assets/image/dangkymoi.jpg"
-                  alt="đăng ký mới"
-                />
-                <div class="xl:flex xl:flex-col hidden">
-                  <img
-                    class="flex-1"
-                    src="./assets/image/img2.jpg"
-                    alt=""
-                    srcset=""
-                  />
-                  <img class="flex-1" src="./assets/image/sale.jpg" alt="" />
-                </div>
-              </div>
+            <div>
               <div
-                class="flex absolute z-10 justify-evenly w-full mt-5 items-center h-8 top-0 left-0"
+                class="flex justify-evenly w-full items-center h-8 bg-orange-400"
               >
                 <div
                   class="search-field flex flex-auto items-center bg-slate-50 max-w-lg border-solid border rounded h-full ml-5"
@@ -82,7 +66,7 @@
                   </div>
                   <div class="h-full">
                     <button
-                      class="w-10 bg-green-500 h-full border-solid rounded hover:bg-yellow-500"
+                      class="w-10 bg-green-500 h-full border-solid rounded hover:bg-yellow-400"
                     >
                       <i class="fa-solid fa-magnifying-glass"></i>
                     </button>
@@ -105,80 +89,151 @@
               </div>
             </div>
           </div>
+          <div>
+            <div class="flex items-center sm:justify-center sm:bg-orange-400">
+              <div class="flex">
+                <img
+                  class="relative left-0 top-0 rounded-xl xl:rounded-none"
+                  src="./assets/image/dangkymoi.jpg"
+                  alt="đăng ký mới"
+                />
+                <div class="xl:flex xl:flex-col hidden">
+                  <img
+                    class="flex-1"
+                    src="./assets/image/img2.jpg"
+                    alt=""
+                    srcset=""
+                  />
+                  <img class="flex-1" src="./assets/image/sale.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </header>
-      <div class="container pt-2 pb-2 bg-slate-400">
+      <div class="container pt-2 pb-2">
         <div class="flex justify-around gap-1 flex-wrap">
-          <div class="flex items-start justify-center w-9/12">
-            <a href="" target="_blank" rel="noopener noreferrer">
-              <img src="./assets/image/vochor.png" alt="" title="Voucher" />
+          <div class="menu-voucher">
+            <a href="" target="" rel="noopener noreferrer">
+              <img
+                class="m-auto"
+                src="./assets/image/vochor.png"
+                alt=""
+                title="Voucher"
+              />
               <div>
-                <span class="vochor">ma giam gia</span>
+                <span class="vochor">Mã Gỉam Gía</span>
               </div></a
             >
           </div>
-          <div class="flex items-start justify-center w-9/12">
-            <a href="" target="_blank" rel="noopener noreferrer">
-              <img src="./assets/image/freshipx.png" alt="" title="Voucher" />
+          <div class="menu-voucher">
+            <a href="" target="" rel="noopener noreferrer">
+              <img
+                class="m-auto"
+                src="./assets/image/freshipx.png"
+                alt=""
+                title="Freeship"
+              />
               <div>
-                <span class="vochor">freeship</span>
+                <span class="vochor">Freeship</span>
               </div>
             </a>
           </div>
-          <div class="flex items-start justify-center w-9/12">
-            <a href="" target="_blank" rel="noopener noreferrer">
-              <img src="./assets/image/sogiday.png" alt="" title="Voucher" />
-              <div><span class="vochor">con so gi day</span></div>
-            </a>
-          </div>
-          <div class="flex items-start justify-center w-9/12">
-            <a href="" target="_blank" rel="noopener noreferrer">
-              <img src="./assets/image/re.png" alt="" title="Voucher" />
-              <div><span class="vochor">hang tot gia re</span></div>
-            </a>
-          </div>
-          <div class="flex items-start justify-center w-9/12">
-            <a href="" target="_blank" rel="noopener noreferrer">
-              <img src="./assets/image/hoanxux.png" alt="" title="Voucher" />
-              <div><span class="vochor">hoan xu</span></div>
-            </a>
-          </div>
-          <div class="flex items-start justify-center w-9/12">
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              <img src="./assets/image/hangquocte.png" alt="" title="Voucher" />
-              <div><span class="vochor">hang quoc te</span></div>
-            </a>
-          </div>
-          <div class="flex items-start justify-center w-9/12">
-            <a href="" target="_blank" rel="noopener noreferrer">
+          <div class="menu-voucher">
+            <a href="" target="" rel="noopener noreferrer">
               <img
+                class="m-auto"
+                src="./assets/image/sogiday.png"
+                alt=""
+                title="Con Số Gì Đây"
+              />
+              <div><span class="vochor">Con Số Gì Đây</span></div>
+            </a>
+          </div>
+          <div class="menu-voucher">
+            <a href="" target="" rel="noopener noreferrer">
+              <img
+                class="m-auto"
+                src="./assets/image/re.png"
+                alt=""
+                title=" Hang Rẻ"
+              />
+              <div><span class="vochor">Hàng Tốt Gía Rẻ</span></div>
+            </a>
+          </div>
+          <div class="menu-voucher">
+            <a href="" target="" rel="noopener noreferrer">
+              <img
+                class="m-auto"
+                src="./assets/image/hoanxux.png"
+                alt=""
+                title="Hoàn Xu"
+              />
+              <div><span class="vochor">Hoàn Xu</span></div>
+            </a>
+          </div>
+          <div class="menu-voucher">
+            <a href="http://" target="" rel="noopener noreferrer">
+              <img
+                class="m-auto"
+                src="./assets/image/hangquocte.png"
+                alt=""
+                title="Hàng Quốc Tế"
+              />
+              <div><span class="vochor">Hàng Quốc Tế</span></div>
+            </a>
+          </div>
+          <div class="menu-voucher">
+            <a href="" target="" rel="noopener noreferrer">
+              <img
+                class="m-auto"
                 src="./assets/image/battrengiasoc.png"
                 alt=""
-                title="Voucher"
+                title="Săn Sale Giá Sốc"
               />
-              <div><span class="vochor">hoan xu</span></div>
+              <div><span class="vochor">Săn Sale Giá Sốc</span></div>
             </a>
           </div>
-          <div class="flex items-start justify-center w-9/12">
-            <a href="" target="_blank" rel="noopener noreferrer">
+          <div class="menu-voucher">
+            <a href="" target="" rel="noopener noreferrer">
               <img
+                class="m-auto"
                 src="./assets/image/hanghieugatot.png"
                 alt=""
-                title="Voucher"
+                title="Hàng Hiệu Gía Tốt"
               />
-              <div><span class="vochor">hoan xu</span></div>
+              <div><span class="vochor">Hàng Hiệu Gía Tốt</span></div>
             </a>
           </div>
-          <div class="flex items-start justify-center w-9/12">
-            <a href="" target="_blank" rel="noopener noreferrer">
-              <img src="./assets/image/napdt.png" alt="" title="Voucher" />
-              <div><span class="vochor">hoan xu</span></div>
+          <div class="menu-voucher">
+            <a href="" target="" rel="noopener noreferrer">
+              <img
+                class="m-auto"
+                src="./assets/image/napdt.png"
+                alt=""
+                title="Nạp Thẻ"
+              />
+              <div><span class="vochor">Nạp Thẻ</span></div>
             </a>
           </div>
         </div>
       </div>
+      <section class="bg-slate-100">
+        <nav class="px-4 py-5 bg-slate-50">
+          <div>
+            <span class="text-center">Danh Mục</span>
+          </div>
+          <div class="grid sm:grid-cols-12 grid-cols-12">
+            <div class="sm:col-span-2 col-span-3">
+              <a href=""
+                ><img src="./assets/image/giay.png" alt="" />
+                <span class="text-center w-full block">Gìay</span></a
+              >
+            </div>
+          </div>
+        </nav>
+      </section>
     </div>
-    <div><span class="text-blue-400">phú</span></div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
