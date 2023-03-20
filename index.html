@@ -46,46 +46,71 @@
     <div class="m-auto sm:container bg-slate-50">
       <header class="m-auto sm:container">
         <div>
+          <!-- header đăng nhập -->
           <div>
             <div>
               <div
-                class="flex items-center w-full h-8 bg-orange-400 justify-evenly"
+                class="flex items-center w-full h-12 bg-orange-400 sm:h-28 justify-evenly"
               >
-                <div
-                  class="flex items-center flex-auto h-full max-w-lg ml-5 border border-solid rounded search-field bg-slate-50"
-                >
-                  <div class="w-full h-full">
-                    <input
-                      type="text"
-                      class="w-full h-full pl-1 mr-3 text-xl border border-solid rounded outline-none search-input"
-                      placeholder="Đăng Ký Nhận Ngay Voucher"
+                <div>
+                  <div>
+                    <img
+                      class="hidden sm:w-28 sm:inline-block"
+                      src="./assets/image/logo.png"
+                      alt=""
                     />
                   </div>
-                  <div class="h-full">
-                    <button
-                      class="w-10 h-full bg-green-500 border-solid rounded hover:bg-yellow-400"
-                    >
-                      <i class="fa-solid fa-magnifying-glass"></i>
-                    </button>
+                </div>
+                <div
+                  class="flex items-center flex-auto h-full sm:grid sm:items-center"
+                >
+                  <div>
+                    <div>
+                      <h1 class="hidden ml-5 sm:block">Trang Mua Bán Otis</h1>
+                    </div>
+                  </div>
+                  <div
+                    class="flex items-center w-full h-8 ml-5 border border-solid rounded sm:ml-0 sm:mb-8 bg-slate-50"
+                  >
+                    <div class="w-full h-full">
+                      <input
+                        type="text"
+                        class="w-full h-full pl-1 mr-3 text-xl border border-solid rounded outline-none search-input"
+                        placeholder="Đăng Ký Nhận Ngay Voucher"
+                      />
+                    </div>
+                    <div class="h-full">
+                      <button
+                        class="w-10 h-full bg-green-500 border-solid rounded hover:bg-yellow-400"
+                      >
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </button>
+                    </div>
                   </div>
                 </div>
-                <div class="flex gap-4 ml-6 mr-3">
+                <div class="flex gap-4 ml-6 mr-5 sm:mr-3">
                   <div class="flex items-center">
                     <a href=""
                       ><i
-                        class="text-2xl text-white fa-solid fa-cart-shopping"
+                        class="text-2xl text-white fa-solid fa-cart-shopping sm:text-4xl"
                       ></i
                     ></a>
                   </div>
-                  <div>
+                  <div class="flex items-center sm:hidden">
                     <a href=""
                       ><i class="text-2xl text-white fa-solid fa-user"></i
+                    ></a>
+                  </div>
+                  <div class="flex items-center sm:hidden">
+                    <a href=""
+                      ><i class="text-2xl text-white fa-solid fa-bars"></i
                     ></a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          <!-- end header đăng ký đăng nhập -->
           <div>
             <div class="flex items-center sm:justify-center sm:bg-orange-400">
               <div class="flex">
@@ -108,6 +133,7 @@
           </div>
         </div>
       </header>
+      <!-- danh sách voucher -->
       <div class="container pt-2 pb-2">
         <div class="flex flex-wrap justify-around gap-1">
           <div class="menu-voucher">
@@ -215,7 +241,9 @@
           </div>
         </div>
       </div>
+      <!-- end danh sách voucher -->
       <section class="bg-slate-100">
+        <!-- danh sách sản phẩm -->
         <nav class="px-4 py-5 bg-slate-50">
           <div>
             <span class="text-center">Danh Mục</span>
