@@ -35,11 +35,14 @@
     <link rel="stylesheet" href="./public/output.css" />
     <link
       rel="stylesheet"
-      href="./assets/font/fontawesome-free-6.3.0-web/fontawesome-free-6.3.0-web/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
   </head>
   <body class="bg-slate-100">
@@ -48,9 +51,9 @@
         <div>
           <!-- header đăng nhập -->
           <div>
-            <div>
+            <div class="sm:container">
               <div
-                class="flex items-center w-full h-12 bg-orange-400 sm:h-28 justify-evenly"
+                class="container fixed z-20 flex items-center h-12 bg-orange-400 sm:h-28 justify-evenly"
               >
                 <div>
                   <div>
@@ -62,45 +65,52 @@
                   </div>
                 </div>
                 <div
-                  class="flex items-center flex-auto h-full sm:grid sm:items-center"
+                  class="flex flex-col items-center flex-auto h-full sm:grid sm:items-center"
                 >
                   <div>
                     <div class="flex justify-between gap-2">
-                      <h1 class="hidden ml-5 sm:block">Trang Mua Bán Otis</h1>
-                      <div class="hidden gap-3 sm:flex">
+                      <h1
+                        class="hidden text-xs md:text-base lg:text-xl sm:block"
+                      >
+                        Trang Mua Bán Otis
+                      </h1>
+                      <div class="items-center hidden gap-3 sm:flex lg:text-xl">
                         <span>Liên Hệ Admin: </span>
                         <a
                           class="hidden w-4 sm:block"
-                          href=""
+                          href="https://www.facebook.com/tran.van.phu.1411/"
                           target="_blank"
                           rel="noopener noreferrer"
                           ><img src="./assets/image/facebook.svg" alt=""
                         /></a>
                         <a
                           class="hidden w-4 sm:block"
-                          href=""
+                          href="https://zalo.me/0988330617"
                           target="_blank"
                           rel="noopener noreferrer"
                           ><img src="./assets/image/zalo.svg" alt=""
                         /></a>
                       </div>
-                      <div class="hidden gap-3 sm:flex">
-                        <div>
+                      <div
+                        class="items-center hidden gap-3 lg:gap-8 sm:flex lg:text-xl"
+                      >
+                        <div class="phu-hover">
                           <span>Đăng Nhập</span>
                         </div>
-                        <div>
+                        <div class="phu-hover">
                           <span>Đăng Ký</span>
                         </div>
                       </div>
                     </div>
                   </div>
+                  <!-- search -->
                   <div
-                    class="flex items-center w-full h-8 ml-5 border border-solid rounded sm:ml-0 sm:mb-8 bg-slate-50"
+                    class="flex items-center w-full h-8 mt-2 ml-5 border border-solid rounded sm:mt-0 sm:ml-0 bg-slate-50"
                   >
                     <div class="w-full h-full">
                       <input
-                        type="text"
-                        class="w-full h-full pl-1 mr-3 text-xl border border-solid rounded outline-none search-input"
+                        type="search"
+                        class="w-full h-full pl-1 mr-3 text-xl border border-solid rounded outline-none search-input text-ellipsis"
                         placeholder="Đăng Ký Nhận Ngay Voucher"
                       />
                     </div>
@@ -110,6 +120,30 @@
                       >
                         <i class="fa-solid fa-magnifying-glass"></i>
                       </button>
+                    </div>
+                  </div>
+                  <!-- end search -->
+                  <div>
+                    <div>
+                      <ul
+                        class="items-center hidden gap-4 text-xs sm:flex lg:text-xl"
+                      >
+                        <li class="phu-hover">
+                          <a href="">Áo Croptop</a>
+                        </li>
+                        <li class="phu-hover">
+                          <a href="">Dép</a>
+                        </li>
+                        <li class="phu-hover">
+                          <a href="">Áo Khoác</a>
+                        </li>
+                        <li class="phu-hover">
+                          <a href="">Ốp iPhone</a>
+                        </li>
+                        <li class="phu-hover">
+                          <a href="">Túi Xách Nữ</a>
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -137,7 +171,9 @@
           </div>
           <!-- end header đăng ký đăng nhập -->
           <div>
-            <div class="flex items-center sm:justify-center sm:bg-orange-400">
+            <div
+              class="flex items-center pt-12 sm:pt-28 sm:justify-center sm:bg-orange-400"
+            >
               <div class="flex">
                 <img
                   class="relative top-0 left-0 rounded-xl xl:rounded-none"
@@ -271,10 +307,76 @@
         <!-- danh sách sản phẩm -->
         <nav class="px-4 py-5 bg-slate-50">
           <div>
-            <span class="text-center">Danh Mục</span>
+            <span class="text-center sm:text-xl">Danh Mục</span>
           </div>
-          <div class="grid grid-cols-12 sm:grid-cols-12">
-            <div class="col-span-3 sm:col-span-2">
+          <div class="grid grid-cols-12 gap-1 sm:grid-cols-12">
+            <div class="phu-hover-item">
+              <a href=""
+                ><img class="" src="./assets/image/giay.png" alt="" />
+                <span class="block w-full text-center">Gìay</span></a
+              >
+            </div>
+            <div class="phu-hover-item">
+              <a href=""
+                ><img src="./assets/image/dongho.png" alt="" />
+                <span class="block w-full text-center">Đồng Hồ</span></a
+              >
+            </div>
+            <div class="phu-hover-item">
+              <a href=""
+                ><img src="./assets/image/lap.png" alt="" />
+                <span class="block w-full text-center">Lap Top</span></a
+              >
+            </div>
+            <div class="phu-hover-item">
+              <a href=""
+                ><img src="./assets/image/tivi.png" alt="" />
+                <span class="block w-full text-center">Ti Vi</span></a
+              >
+            </div>
+            <div class="phu-hover-item">
+              <a href=""
+                ><img src="./assets/image/xemay.png" alt="" />
+                <span class="block w-full text-center">Xe Máy</span></a
+              >
+            </div>
+            <div class="phu-hover-item">
+              <a href=""
+                ><img src="./assets/image/balo.png" alt="" />
+                <span class="block w-full text-center">Ba Lo</span></a
+              >
+            </div>
+            <div class="phu-hover-item">
+              <a href=""
+                ><img src="./assets/image/dongho.png" alt="" />
+                <span class="block w-full text-center">Đồ Hồ</span></a
+              >
+            </div>
+            <div class="phu-hover-item">
+              <a href=""
+                ><img src="./assets/image/giay.png" alt="" />
+                <span class="block w-full text-center">Gìay</span></a
+              >
+            </div>
+            <div class="phu-hover-item">
+              <a href=""
+                ><img src="./assets/image/giay.png" alt="" />
+                <span class="block w-full text-center">Gìay</span></a
+              >
+            </div>
+            <div class="phu-hover-item">
+              <a href=""
+                ><img src="./assets/image/giay.png" alt="" />
+                <span class="block w-full text-center">Gìay</span></a
+              >
+            </div>
+            <div class="phu-hover-item">
+              <a href=""
+                ><img src="./assets/image/giay.png" alt="" />
+                <span class="block w-full text-center">Gìay</span></a
+              >
+            </div>
+            <div class="phu-hover-item">
               <a href=""
                 ><img src="./assets/image/giay.png" alt="" />
                 <span class="block w-full text-center">Gìay</span></a
@@ -282,6 +384,7 @@
             </div>
           </div>
         </nav>
+        <!-- end danh sách sản phẩm -->
       </section>
     </div>
     <script type="module" src="/main.js"></script>
