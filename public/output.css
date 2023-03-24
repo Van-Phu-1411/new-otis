@@ -756,6 +756,14 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\(https\:\/\/pasteboard\.co\/6mUgZmnFJo7I\.png\)\] {
+  background-image: url(https://pasteboard.co/6mUgZmnFJo7I.png);
+}
+
+.bg-\[url\(\'https\:\/\/pasteboard\.co\/6mUgZmnFJo7I\.png\'\)\] {
+  background-image: url('https://pasteboard.co/6mUgZmnFJo7I.png');
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
