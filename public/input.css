@@ -10,3 +10,6 @@
 .phu-hover-item {
   @apply border-2 border-indigo-100 border-solid hover:border-indigo-300 col-span-4 sm:col-span-2 hover:bg-slate-200 rounded-xl hover:-translate-y-1 sm:p-5 capitalize p-3;
 }
+.phu-hover-flash {
+  @apply border-2 border-indigo-100 border-solid hover:border-indigo-300 col-span-4 sm:col-span-2 hover:bg-white rounded-xl hover:-translate-y-1 sm:p-5 capitalize p-3;
+}
