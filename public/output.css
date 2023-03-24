@@ -756,12 +756,12 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(https\:\/\/pasteboard\.co\/6mUgZmnFJo7I\.png\)\] {
-  background-image: url(https://pasteboard.co/6mUgZmnFJo7I.png);
+.bg-\[url\(\'https\:\/\/i\.imgur\.com\/fCuxaK4\.png\'\)\] {
+  background-image: url('https://i.imgur.com/fCuxaK4.png');
 }
 
-.bg-\[url\(\'https\:\/\/pasteboard\.co\/6mUgZmnFJo7I\.png\'\)\] {
-  background-image: url('https://pasteboard.co/6mUgZmnFJo7I.png');
+.bg-\[url\(\'https\:\/\/github\.com\/Van-Phu-1411\/new-otis\/blob\/main\/assets\/image\/bg\.png\?raw\=true\'\)\] {
+  background-image: url('https://github.com/Van-Phu-1411/new-otis/blob/main/assets/image/bg.png?raw=true');
 }
 
 .px-4 {
