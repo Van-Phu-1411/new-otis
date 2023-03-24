@@ -567,12 +567,12 @@ video {
   top: 0px;
 }
 
-.top-1 {
-  top: 0.25rem;
-}
-
 .z-20 {
   z-index: 20;
+}
+
+.col-span-2 {
+  grid-column: span 2 / span 2;
 }
 
 .m-auto {
@@ -756,12 +756,16 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'https\:\/\/i\.imgur\.com\/fCuxaK4\.png\'\)\] {
-  background-image: url('https://i.imgur.com/fCuxaK4.png');
-}
-
 .bg-\[url\(\'https\:\/\/github\.com\/Van-Phu-1411\/new-otis\/blob\/main\/assets\/image\/bg\.png\?raw\=true\'\)\] {
   background-image: url('https://github.com/Van-Phu-1411/new-otis/blob/main/assets/image/bg.png?raw=true');
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .px-4 {
@@ -800,6 +804,10 @@ video {
 
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pt-full {
+  padding-top: 100%;
 }
 
 .text-center {
@@ -919,8 +927,13 @@ video {
 
 @media (min-width: 640px) {
   .phu-hover-item {
-    grid-column: span 2 / span 2;
     padding: 1.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .phu-hover-item {
+    grid-column: span 2 / span 2;
   }
 }
 
@@ -946,10 +959,17 @@ video {
 
 @media (min-width: 640px) {
   .phu-hover-flash {
-    grid-column: span 2 / span 2;
     padding: 1.25rem;
   }
+}
 
+@media (min-width: 768px) {
+  .phu-hover-flash {
+    grid-column: span 2 / span 2;
+  }
+}
+
+@media (min-width: 640px) {
   .sm\:container {
     width: 100%;
   }
@@ -1029,10 +1049,6 @@ video {
 
   .sm\:w-28 {
     width: 7rem;
-  }
-
-  .sm\:grid-cols-12 {
-    grid-template-columns: repeat(12, minmax(0, 1fr));
   }
 
   .sm\:items-center {
