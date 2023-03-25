@@ -8,12 +8,12 @@
   @apply cursor-pointer relative after:absolute after:bottom-0 after:left-0 after:bg-red-600 after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:ease-in-out after:duration-300;
 }
 .phu-hover-item {
-  @apply border-2 border-indigo-100 border-solid hover:border-indigo-300 col-span-4 lg:col-span-2 hover:bg-slate-200 rounded-xl hover:-translate-y-1 sm:p-5 capitalize p-3;
+  @apply border-2 border-indigo-100 border-solid hover:border-indigo-300 col-span-4 lg:col-span-2 hover:bg-slate-200 rounded-xl hover:-translate-y-1 sm:p-5 capitalize p-2;
 }
 .phu-hover-flash {
   @apply border-2 border-indigo-100 border-solid hover:border-indigo-300 col-span-4 lg:col-span-2 hover:bg-white
-  rounded-xl hover:-translate-y-1 sm:p-5 capitalize p-3;
+  rounded-xl hover:-translate-y-1 p-3 capitalize;
 }
 .phu-giam-gia {
-  @apply absolute top-0 right-0 sm:h-8 h-6 text-[11px] sm:text-xs text-center bg-orange-400 rounded-t-md after:border-rgba  after:border-solid after:border-t-0 sm:after:border-r-18 after:border-r-14 after:border-l-14 sm:after:border-l-18 after:border-b-4 after:block opacity-90 sm:w-9 w-7 after:w-0 after:h-0 after:left-0 after:-bottom-1 after:absolute;
+  @apply absolute top-1 right-1 sm:h-8 h-5 text-[10px] sm:text-xs text-center bg-orange-400 rounded-t-md after:border-rgba  after:border-solid after:border-t-0 sm:after:border-r-18 after:border-r-12 after:border-l-12 sm:after:border-l-18 after:border-b-4 after:block opacity-90 sm:w-9 w-6 after:w-0 after:h-0 after:left-0 after:-bottom-1 after:absolute;
 }
