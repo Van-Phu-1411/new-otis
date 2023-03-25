@@ -17,3 +17,6 @@
 .phu-giam-gia {
   @apply absolute top-1 right-1 sm:h-8 h-5 text-[10px] sm:text-xs text-center bg-orange-400 rounded-t-md after:border-rgba  after:border-solid after:border-t-0 sm:after:border-r-18 after:border-r-12 after:border-l-12 sm:after:border-l-18 after:border-b-4 after:block opacity-90 sm:w-9 w-6 after:w-0 after:h-0 after:left-0 after:-bottom-1 after:absolute;
 }
+.snowflake {
+  @apply pl-4 leading-6 fixed text-red-400 z-50;
+}

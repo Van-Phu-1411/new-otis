@@ -59,7 +59,7 @@
     />
   </head>
   <body class="bg-slate-100">
-    <div class="m-auto sm:container bg-slate-50">
+    <div class="relative m-auto sm:container bg-slate-50">
       <header class="m-auto sm:container">
         <div>
           <!-- header đăng nhập -->
@@ -70,11 +70,12 @@
               >
                 <div>
                   <div>
-                    <img
-                      class="hidden sm:w-28 sm:inline-block"
-                      src="./assets/image/logo.png"
-                      alt=""
-                    />
+                    <a href="" target="_blank" rel="noopener noreferrer"
+                      ><img
+                        class="hidden sm:w-28 sm:inline-block"
+                        src="./assets/image/logo.png"
+                        alt=""
+                    /></a>
                   </div>
                 </div>
                 <div
@@ -766,7 +767,7 @@
       </section>
       <hr />
       <footer>
-        <div>
+        <div class="flex flex-col md:flex-row sm:justify-evenly">
           <div class="flex flex-col items-center gap-4 capitalize h-28 pt-7">
             <span>bản quyền thuộc tác giả: trần văn phú</span>
             <div class="flex items-center gap-3 lg:text-xl">
@@ -787,9 +788,49 @@
               /></a>
             </div>
           </div>
+          <div>
+            <div>
+              <iframe
+                class="p-2 m-auto w-72 h-60 md:w-96"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d284.35958108259723!2d105.67335427083798!3d20.825778553670656!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31344957cc1520a3%3A0xed246e8f49ac137d!2zVuG6rXQgTGnhu4d1IFjDonkgROG7sW5nIFRo4buNIFRodeG6rW4!5e1!3m2!1svi!2s!4v1679745416175!5m2!1svi!2s"
+                width="100%"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
         </div>
       </footer>
+      <div
+        class="container absolute top-0 left-0 pointer-events-none"
+        id="snowflakeContainer"
+      >
+        <p
+          class="snowflake"
+          style="
+            opacity: 1;
+            font-size: 32.4028px;
+            transform: translate3d(111px, 277px, 0px);
+          "
+        >
+          <span class="snow">❆</span>
+        </p>
+        <p
+          class="snowflake"
+          style="
+            opacity: 1;
+            font-size: 18.0462px;
+            transform: translate3d(1910px, 14px, 0px);
+          "
+        >
+          <span class="snow">❆</span>
+        </p>
+      </div>
     </div>
-    <script type="module" src="/main.js"></script>
+
+    <script type="module" src="./public/main.js"></script>
   </body>
 </html>
