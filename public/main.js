@@ -16,7 +16,7 @@ var snowflakes = [];
 var browserWidth;
 var browserHeight;
 var resetPosition = false;
-var numberOfSnowflakes = 34;
+var numberOfSnowflakes = 50;
 var snowIcon = "❆";
 
 function setup() {
