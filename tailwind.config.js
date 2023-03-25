@@ -3,10 +3,10 @@ module.exports = {
   content: ["./**.{html,js}", "./index.html"],
   theme: {
     extend: {
+      fontSize: {
+        0.6: "0.6rem",
+      },
       borderWidth: {
-        fontSize: {
-          0.6: "0.6rem",
-        },
         DEFAULT: "1px",
         0: "0",
         2: "2px",
