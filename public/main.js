@@ -109,7 +109,3 @@ function setResetFlag(a) {
   resetPosition = true;
 }
 // end snow
-var fullName = "trần văn phú";
-alert(fullName);
-confirm("xác nhận đủ tuổi");
-console.log(fullName);
