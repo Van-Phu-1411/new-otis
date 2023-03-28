@@ -1,2 +1,5 @@
-var fullName = "trần văn phú";
-console.log(fullName);
+var myInfo = {
+  name: "PHU",
+  age: "18",
+};
+console.log(myInfo.name);
