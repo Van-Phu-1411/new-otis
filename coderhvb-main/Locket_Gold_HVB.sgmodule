@@ -1,4 +1,4 @@
-#!url=https://raw.githubusercontent.com/Van-Phu-1411/new-otis/blob/main/Locket_Gold_HVB.sgmodule
+#!url=https://raw.githubusercontent.com/Van-Phu-1411/new-otis/coderhvb-main/Locket_Gold_HVB.sgmodule
 #!name=Locket-HVB_Gold
 #!desc=Crack By VuongDucHa
 
@@ -8,9 +8,9 @@ user-agent = Locket/1.0.0 (iPhone; iOS 18.1.1; Scale/3.00)
 [Script]
 # ~ By VuongDucHa
 # ~ Enhanced for Shadowrocket, Surge, & LanceX
-revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.*\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/Van-Phu-1411/new-otis/blob/main/coderhvb-main/Locket_hvb_fix.js, requires-body=true, max-size=-1, timeout=120
+revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.*\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/Van-Phu-1411/new-otis/coderhvb-maincoderhvb-main/Locket_hvb_fix.js, requires-body=true, max-size=-1, timeout=120
 
-deleteHeader = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.*\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/Van-Phu-1411/new-otis/blob/main/deleteHeader.js, timeout=120
+deleteHeader = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.*\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/Van-Phu-1411/new-otis/coderhvb-main/deleteHeader.js, timeout=120
 
 [MITM]
 hostname = api.revenuecat.com, raw.githubusercontent.com
