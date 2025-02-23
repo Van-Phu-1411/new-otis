@@ -19,4 +19,4 @@ console.log("Modified Headers:", JSON.stringify(modifiedHeaders));
 // Kết thúc request với header đã sửa đổi
 $done({ headers: modifiedHeaders });
 
-// ========= Hoàng Văn Bảo ========= //
+// ========= Vương Đức Hà ========= //
